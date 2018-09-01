@@ -12,16 +12,16 @@
   <body>
     <div class="container">
 
-      <label id="search" for="search">
-        <input type="text" name="search" placeholder="Search(16pt)">
+      <label id="search" for="search-box">
+        <input type="text" name="search" placeholder="Search(16pt)" data-list=".list" id="search-box">
       </label>
 
-      <div class="images">
+      <div class="images list">
 
         <div class="item"><a href="photo_gallery_v4/photos/01.jpg" data-lightbox="gallery" data-title="Hay Bales
 I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-          <img src="photo_gallery_v4/photos/thumbnails/01.jpg" alt="Hay Bales">
-        </a></div> <!-- img 1 -->
+          <img src="photo_gallery_v4/photos/thumbnails/01.jpg" alt="Hay Bales"> </a>
+        </div> <!-- img 1 -->
 
         <div class="item"><a href="photo_gallery_v4/photos/02.jpg" data-lightbox="gallery" data-title="Lake
 The lake was so calm today. We had a great view of the snow on the mountains from here.">
@@ -76,8 +76,7 @@ We enjoyed a quiet stroll down this countryside lane.">
     </div> <!-- container -->
     <script src="js/jquery.js"></script>
     <script src="lightbox/lightbox.js"></script>
-    <script>
-
-    </script>
+    <script src="HideSeek/HideSeek-master/jquery.hideseek.js"></script>
+    <script>$('#search-1').hideseek();</script>
   </body>
 </html>

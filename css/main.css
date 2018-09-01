@@ -31,3 +31,7 @@
 .item {
 	margin: 20px;
 }
+
+figcaption {
+  display: none;
+}
